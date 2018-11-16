@@ -4,4 +4,5 @@ read str1
 git add *
 git commit -m "$str1" * 
 chmod u+x *.sh
-
+chmod g-r-w-x *.sh
+chmod o-r-w-x *.sh
